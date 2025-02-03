@@ -1,0 +1,36 @@
+* {
+  font-family: Calibri;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: row;  /* Stack items vertically */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #393E46;
+  min-height: 100vh;
+  row-gap: 20px;
+  gap: 20px;
+}
+
+.taskList-container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column; /* Ensure children are responsive */
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 20px;
+  width: 100%;
+  padding: 1em;
+  background-color: #00ADB5;
+}
+
+.task {
+  background-color: #EEEEEE;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}

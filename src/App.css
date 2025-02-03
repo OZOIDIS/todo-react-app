@@ -1,0 +1,28 @@
+.root-container {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #b06262;
+  min-height: 100vh;
+}
+
+.taskList-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure children are responsive */
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: blue;
+}
+
+.task {
+  background-color: rgb(114, 25, 25);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Adjust the width as needed */
+  text-align: center;
+}
